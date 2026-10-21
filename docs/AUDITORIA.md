@@ -135,7 +135,8 @@ Los archivos de salida de PartFed contienen cuentas y deben tratarse como privad
 
 Documenta el trabajo manual sustituido, usuarios que preparan nómina, operaciones
 verificadas, importación de módulos en un libro nuevo, configuración, ejecución y
-limitaciones. No inventa URL de repositorio, versión mínima de Excel ni licencia.
+limitaciones. No inventa URL de repositorio ni versión mínima de Excel.
+La licencia MIT se añadió posteriormente por indicación del responsable del proyecto.
 Incluye flujo de clonación interactivo para cuando exista una URL.
 
 ## 17. Validación
@@ -175,7 +176,7 @@ repositorio anterior.
    [las pruebas en Excel](PRUEBAS.md), incluido el lanzador PowerShell.
 3. Configurar cuentas autorizadas únicamente en `.env` local; no hay credenciales
    de acceso identificadas que requieran rotación automática o manual.
-4. Decidir licencia y comprobar autorización para publicar el código.
+4. Comprobar autorización para publicar el código bajo la licencia MIT elegida.
 5. Revisar `git status`, el contenido que se agregue al índice y el resultado del
    comprobador antes de hacer personalmente el commit y, posteriormente, publicar.
 
@@ -185,7 +186,6 @@ repositorio anterior.
 - No se dispone de una especificación completa ni fixtures del esquema de entrada.
 - Los originales `.xlsm` locales conservan datos privados y VBA anterior.
 - El guardado es destructivo y no transaccional; requiere copias de trabajo.
-- El repositorio aún no tiene licencia.
 
 La revisión estática no garantiza ausencia absoluta de secretos o defectos. La
 aceptación funcional requiere intervención del responsable en Excel para Windows.

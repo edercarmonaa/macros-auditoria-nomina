@@ -242,5 +242,4 @@ No adjuntar libros reales, `.env`, cuentas privadas ni capturas con datos person
 
 ## Licencia
 
-Este proyecto todavía no incluye un archivo de licencia. El titular debe decidirla
-antes de ofrecer condiciones explícitas de uso y redistribución.
+Este proyecto se distribuye bajo la [licencia MIT](LICENSE).
